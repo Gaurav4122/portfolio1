@@ -59,7 +59,7 @@ h1{
 }
 .images{
     padding:1.5rem;
-    background-image: url(./mover.jpg);
+    background-image: url(mover.jpg);
     display:flex;
     justify-content: center;
     align-items: center;
