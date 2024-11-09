@@ -1,0 +1,135 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width:100vw;
+}
+.logo{
+    background-color:rgb(215,46,46);
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+
+}
+
+h1{
+    color:white;
+    font-size:1.5rem;
+}
+.right>button{
+    margin-left: 0.8rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color:rgb(215,46,46);
+    padding-top:0.4rem;
+    border: none;
+    cursor:pointer;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:0.8rem;
+    background-color: rgb(154, 154, 154);
+}
+.searchings{
+    width:400px;
+    max-width: 60%;
+    font-size:0.8rem;
+    padding:0.3rem;
+}
+.search>button{
+    background-color: rgb(215,46,46);
+    margin: 0.6rem;
+    font-size: 1rem;
+    padding:0.3rem;
+    color:white;
+    font-weight: bold;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+
+}
+.images{
+    padding:1.5rem;
+    background-image: url(./mover.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.images>h2{
+    color:white;
+     font-size: bold;
+     background-color: black;
+}
+.images>button{
+    padding:0.4rem;
+    font-size:1.5rem;
+    margin-top:0.4rem;
+    background-color: rgb(215,46,46);
+    border-radius: 10px;
+    border:none;
+    color:white;
+    cursor: pointer;
+
+}
+.popular_movies{
+    padding:1.5rem;
+    font-size:2rem;
+    text-align: center;
+}
+.movies{
+   
+    display:flex;
+    overflow-x: scroll;
+}
+ .card{
+        border: 0.5rem solid rgb(208, 199, 199);
+        background-color:rgb(208, 199, 199);
+        text-align: center;
+        margin-left: 1rem;
+        border-radius: 10px;
+    }
+.card_images{
+    height:350px;
+}
+.card>h2{
+    text-align:center;
+    padding:0.4rem;
+}
+.footer_image{
+    margin-top: 1.8rem;
+    text-align: center;
+}
+.footer_image>img{
+    max-width: 80%;
+    border-radius: 10px;
+    
+
+}
+@media (max-width:600px){
+   .logo{
+    flex-direction: column;
+    align-items: center;
+   }
+   .right{
+    display: flex;
+    flex-direction: column;
+    margin-top:0.4rem;
+   }
+   .movies{
+    flex-direction: column;
+    gap:0.4rem;
+   }
+   
+}
